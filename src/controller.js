@@ -16,7 +16,7 @@ controller.index = (req,res) => {
   res.json(data);
 };
 
-controller.create = async ( req, res) =>{
+controller.create = async( req, res) =>{
 
   try {
 
@@ -24,7 +24,7 @@ controller.create = async ( req, res) =>{
       name:"Kamalesh",
       email:"kamaleshp.citmct2017@gmail.com",
       phone:"8838682284",
-      age:"56"
+      age:"21"
     })
     .then(function(data){
       const res = { success: true, data: data, message:"created successful" }
