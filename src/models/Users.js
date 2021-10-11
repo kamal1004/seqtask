@@ -11,8 +11,8 @@ var Users = sequelize.define('users', {
   },
   name: Sequelize.STRING,
   email: Sequelize.STRING,
-  phone: Sequelize.BIGINT,
-  age: Sequelize.INTEGER
+  phone: Sequelize.STRING,
+  age: Sequelize.STRING
 });
 
 module.exports = Users;

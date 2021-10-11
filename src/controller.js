@@ -21,10 +21,10 @@ controller.create = async( req, res) =>{
   try {
 
     const response = await Users.create({
-      name:"Kamalesh",
-      email:"kamaleshp.citmct2017@gmail.com",
-      phone:"8838682284",
-      age:"21"
+      name:"Kamalesh Prabakar",
+      email:"kamal@gmail.com",
+      phone:"12345789012",
+      age:"10"
     })
     .then(function(data){
       const res = { success: true, data: data, message:"created successful" }
